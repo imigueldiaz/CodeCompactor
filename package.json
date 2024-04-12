@@ -1,14 +1,15 @@
 {
   "name": "codecompactor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Effortlessly condense and prepare your codebase for seamless analysis by online LLMs.",
-  "main": "generateFileTree.mjs",
+  "main": "generateFileTree.js",
+  "type": "module",
   "scripts": {
-    "start": "node generateFileTree.mjs",
+    "start": "node generateFileTree.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "generate-file-tree": "./generateFileTree.mjs"
+    "generate-file-tree": "./generateFileTree.js"
   },
   "repository": {
     "type": "git",
