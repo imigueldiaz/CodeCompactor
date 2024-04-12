@@ -1,0 +1,32 @@
+{
+  "name": "codecompactor",
+  "version": "1.0.0",
+  "description": "Effortlessly condense and prepare your codebase for seamless analysis by online LLMs.",
+  "main": "generateFileTree.mjs",
+  "scripts": {
+    "start": "node generateFileTree.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate-file-tree": "./generateFileTree.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imigueldiaz/CodeCompactor.git"
+  },
+  "keywords": [
+    "LLM",
+    "plain-text",
+    "merge"
+  ],
+  "author": "Ignacio de Miguel Díaz",
+  "email": "imigueldiaz@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imigueldiaz/CodeCompactor/issues"
+  },
+  "homepage": "https://github.com/imigueldiaz/CodeCompactor#readme",
+  "dependencies": {
+    "minimatch": "^9.0.4"
+  }
+}
