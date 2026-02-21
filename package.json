@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/imigueldiaz/CodeCompactor#readme",
   "dependencies": {
-    "minimatch": "^9.0.4"
+    "minimatch": "^10.2.1"
   }
 }
